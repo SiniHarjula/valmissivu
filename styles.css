@@ -12,7 +12,7 @@ body {
   height: 100vh;
   color:rgb(255, 255, 255);
   text-align: center;
- }
+}
 
  .etusivuotsikko {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.9);
@@ -20,19 +20,19 @@ body {
     font-family: "Tajawal", sans-serif;
     font-weight: bold;
     font-size: 3em;
-  }
+}
 
   @media only screen and (max-width: 600px) {
     .etusivuotsikko {
-      font-size: 2em; /* Puhelimille pienempi koko */
+      font-size: 2em; 
       padding-top: 33%;
     }
   }
   
 .etusivuteksti {
     text-align: center;
-    margin-top: 20px; /* Säädä etäisyyttä tarpeen mukaan */
-    margin-bottom: 20px; /* Säädä etäisyyttä tarpeen mukaan */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
     font-family: "Tajawal", sans-serif;
     font-size: 1.8em;
     font-weight: bold;
@@ -41,9 +41,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .etusivuteksti {
-    font-size: 1em; /* Pienempi koko puhelimille */
+    font-size: 1em; 
   }
 }
+
 .navigation {
   background-color: rgb(59, 57, 57);
   position: fixed;
@@ -52,12 +53,12 @@ body {
   z-index: 1000;
 }
 
-
 .navbar-toggler .bi-camera-reels {
-  fill: white; /* Aseta ikonin väri valkoiseksi */
-  width: 24px; /* Aseta ikonin leveys */
-  height: 24px; /* Aseta ikonin korkeus */
+  fill: white; 
+  width: 24px; 
+  height: 24px; 
 }
+
 .nav-link {
 color: aliceblue;
 }
@@ -69,6 +70,7 @@ color: aliceblue;
   background-color: #fffefe;
   text-align: center;
 }
+
 .carousel {
   margin-bottom: 5%;
 }
@@ -77,12 +79,8 @@ color: aliceblue;
 .muistitikku-sivu{
   color: rgb(0, 0, 0);
   text-align: center;
-}
-
-.muistitikku-sivu {
   padding: 20px;
 }
-
 
 .muistitikkuteksti {
   margin-top: 5%;
@@ -91,9 +89,7 @@ color: aliceblue;
 .yhteystieto-sivu {
   color: rgb(0, 0, 0);
   background-color: #fffefe;
-  
 }
-
 
 .digitointi-sivu, .muistitikku-sivu, .yhteystieto-sivu {
   padding: 50px;
@@ -102,14 +98,12 @@ color: aliceblue;
   font-family: "Tajawal", sans-serif;
 }
 
-
 .digitointiotsikko {
   text-align: center;
   margin-top: 5%;
   color: rgb(88, 80, 80);
   font-family: "Tajawal", sans-serif;
 }
-
 
 .muistitikkuotsikko {
   text-align: center;
@@ -150,8 +144,7 @@ button {
   color:white
 }
 .social-icons a svg {
-  fill: white; /* Aseta SVG-ikonien täyttöväri valkoiseksi */
-  
+  fill: white; 
 }
 
 .social-icons {
@@ -159,7 +152,7 @@ button {
 }
 
 .social-icons a:visited svg {
-  fill: white; /* Aseta SVG-ikonien täyttöväri valkoiseksi myös klikkausten jälkeen */
+  fill: white; 
 }
 
     
