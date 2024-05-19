@@ -79,6 +79,11 @@ color: aliceblue;
   text-align: center;
 }
 
+.muistitikkukuva {
+  object-fit: cover; 
+  height: 100%;
+}
+
 .muistitikkuteksti {
   margin-top: 5%;
 }
