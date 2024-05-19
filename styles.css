@@ -79,10 +79,10 @@ color: aliceblue;
   text-align: center;
 }
 
-.muistitikkukuva {
-  object-fit: cover; 
-  height: 100%;
+.muistitikku-sivu {
+  padding: 20px;
 }
+
 
 .muistitikkuteksti {
   margin-top: 5%;
