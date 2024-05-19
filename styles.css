@@ -1,0 +1,160 @@
+
+body {
+  background-color: #e2d7d0;
+}
+
+.etusivu {
+  background-image: url('Kuvat/Etusivu.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  color:rgb(255, 255, 255);
+  text-align: center;
+ }
+
+ .etusivuotsikko {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.9);
+    padding-top: 20%;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .etusivuotsikko {
+      font-size: 2em; /* Puhelimille pienempi koko */
+      padding-top: 33%;
+    }
+  }
+  
+.etusivuteksti {
+    text-align: center;
+    margin-top: 20px; /* Säädä etäisyyttä tarpeen mukaan */
+    margin-bottom: 20px; /* Säädä etäisyyttä tarpeen mukaan */
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .etusivuteksti {
+    font-size: 1em; /* Pienempi koko puhelimille */
+  }
+}
+.navigation {
+  background-color: rgb(59, 57, 57);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.navbar-toggler .bi-camera-reels {
+  fill: white; /* Aseta ikonin väri valkoiseksi */
+  width: 24px; /* Aseta ikonin leveys */
+  height: 24px; /* Aseta ikonin korkeus */
+}
+.nav-link {
+color: aliceblue;
+}
+
+.digitointi-sivu {
+  color: rgb(88, 80, 80);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #fffefe;
+  text-align: center;
+}
+.carousel {
+  margin-bottom: 5%;
+}
+
+
+.muistitikku-sivu{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.muistitikkuteksti {
+  margin-top: 5%;
+}
+
+.yhteystieto-sivu {
+  color: rgb(0, 0, 0);
+  background-color: #fffefe;
+  
+}
+
+
+.digitointi-sivu, .muistitikku-sivu, .yhteystieto-sivu {
+  padding: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  color: rgb(88, 80, 80);
+  font-family: "Tajawal", sans-serif;
+}
+
+
+.digitointiotsikko {
+  text-align: center;
+  margin-top: 5%;
+  color: rgb(88, 80, 80);
+  font-family: "Tajawal", sans-serif;
+}
+
+
+.muistitikkuotsikko {
+  text-align: center;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  color: rgb(88, 80, 80);
+  font-family: "Tajawal", sans-serif;
+}
+
+.muistitikku-sivu {
+  text-align: center;
+  background-color: #fffefe;
+}
+
+.otayhteyttäotsikko {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgb(88, 80, 80);
+  font-family: "Tajawal", sans-serif;
+}
+
+.footer {
+  background-color: rgb(59, 57, 57);
+  color: #fffefe;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: "Tajawal", sans-serif;
+  text-align: left;
+}
+
+button {
+  margin-top: 5%;
+ 
+}
+
+.list-inline-item {
+  color:white
+}
+.social-icons a svg {
+  fill: white; /* Aseta SVG-ikonien täyttöväri valkoiseksi */
+  
+}
+
+.social-icons {
+  text-align:left;
+}
+
+.social-icons a:visited svg {
+  fill: white; /* Aseta SVG-ikonien täyttöväri valkoiseksi myös klikkausten jälkeen */
+}
+
+    
